@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+}
+.menu-bar{
+    margin: 3rem 0rem 1rem 8rem; ;
+}
+
+.menu{
+    
+    float: right;
+    text-align:start;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    border-left: 3px solid rgb(156, 148, 148);
+    cursor: pointer;
+    
+}
+
+.text div{
+    margin: .5rem;
+}
+
+.content{
+   
+    margin: 6rem 0rem 0rem 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h1{
+    /* border: 2px solid red; */
+   font-weight:900;
+    margin: 0rem 0rem 1rem 0rem;
+}
+.content h4{
+   
+    font-weight: 400;
+    color: rgb(90, 87, 90);
+}
+.car{
+    
+    float: right;
+    margin: -20rem 4rem 0rem 0rem;
+    position: relative;
+    animation: run 3s linear 2;
+    
+
+}
+
+.bottom{
+    display: flex;
+    margin: 15rem 0rem 0rem 9rem;
+    box-sizing: border-box;
+    
+}
+.bottom div{
+    margin-right: 2rem;
+}
+
+.bottext{
+    /* border: 2px solid red; */
+    text-align: center;
+    display: flex;
+    margin:-2rem 0rem 0rem 3rem;
+    position: relative;
+    
+}
+.content button{
+    width: 10%;
+    background-color: rgb(231, 231, 7);
+    padding: .5rem 1rem .5rem 1rem;
+    /* border:2px solid red; */
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+@keyframes run{
+    0%{
+        transform:translate(-100px,-100px)
+    }
+    100%{
+        transform:translate(0px,0px)
+    }
+}
